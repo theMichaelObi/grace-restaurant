@@ -1,0 +1,106 @@
+.reservation .reservation-form {
+    width: 100%;
+}
+
+.reservation .reservation-form .form-group {
+    padding-bottom: 8px;
+}
+
+.reservation .reservation-form .error-message {
+    color: white;
+    background: #80150e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.reservation .reservation-form .error-message br + br {
+    margin-top: 25px;
+}
+
+.reservation .reservation-form .sent-message {
+    color: white;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    
+}
+
+.reservation .reservation-form .loading {
+    text-align: center;
+    padding: 15px;
+}
+
+.reservation .reservation-form .loading::before {
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #cda45e;
+    border-top-color: #1a1814;
+    animation: animate-loading 1s linear infinite;
+    -webkit-animation: animate-loading 1s linear infinite;
+}
+
+.reservation .reservation-form input,
+.reservation .reservation-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: #0c0b09;
+    border-color: #625b4b;
+    color: white;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.reservation .reservation-form input[type='date'],
+.reservation .reservation-form input[type='time'] {
+    color: #a49b89;
+}
+
+.reservation .reservation-form input::-webkit-input-placeholder,
+.reservation .reservation-form textarea::-webkit-input-placeholder {
+    color: #a49b89;
+}
+
+.reservation .reservation-form input::-moz-placeholder,
+.reservation .reservation-form textarea::-moz-placeholder {
+    color: #a49b89;
+}
+
+.reservation .reservation-form input::placeholder,
+.reservation .reservation-form textarea::placeholder {
+    color: #a49b89;
+}
+
+.reservation .reservation-form input:focus,
+.reservation .reservation-form textarea:focus {
+    border-color: #cda45e;
+}
+
+.reservation .reservation-form input {
+    height: 44px;
+}
+
+.reservation .reservation-form textarea {
+    padding: 10px 12px;
+}
+
+.reservation .reservation-form button[type='submit'] {
+    background: #cda45e;
+    border: 0;
+    padding: 10px 35px;
+    color: white;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.reservation .reservation-form button[type='submit']:hover {
+    background: #ddb062;
+}
