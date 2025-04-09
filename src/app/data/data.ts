@@ -301,7 +301,7 @@ export const reviews = [
         content: `Words can't even describe how delicious the food is here at Grace's.`,
         avatar: '/images/reviews/gabriel-fischer.png',
         client: 'Gabriel Fischer',
-        position: 'Financial Operator',
+        position: 'Official Financial Operator',
     },
     {
         id: 3,
